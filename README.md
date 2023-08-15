@@ -1,26 +1,8 @@
-# Portfolio
+# React + Vite
 
-This is my personal portfolio website built using HTML, SCSS, and JavaScript.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Overview
+Currently, two official plugins are available:
 
-My portfolio website showcases my projects, skills, and experiences. It provides a snapshot of my journey as a web developer.
-
-## Technologies Used
-
-- HTML
-- SCSS
-- JavaScript
-
-## Usage
-
-Feel free to explore the codebase to see how I've designed and developed my portfolio website.
-
-## Getting Started
-
-1. Clone this repository: `git clone https://github.com/jurecapuder/portfolio.git`
-2. Open the `index.html` file in your browser to view the website.
-
-## License
-
-This project is under the [MIT License](LICENSE).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
