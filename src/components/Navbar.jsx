@@ -6,7 +6,7 @@ import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
-  const [active, setActive] = useState(' ');
+const [active, setActive] = useState("")
 
   return (
     <nav
