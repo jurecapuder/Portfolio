@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo } from '../assets'
 
 const Navbar = () => {
-const [active, setActive] = useState("")
+  const [active, setActive] = useState("")
 
   return (
     <nav
@@ -16,10 +16,7 @@ const [active, setActive] = useState("")
         <Link
           to="/"
           className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
+          onClick={() => setActive("")}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer'> Jure <span className='sm:block hidden'>| Capuder</span></p>
@@ -29,15 +26,17 @@ const [active, setActive] = useState("")
             <li
               key={link.id}
               className={`${
-                active === link.title
+                active === link.id // Change to 'link.id'
                   ? "text-white"
                   : "text-secondary"
-              } hover: text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
-              <a href={`#${link.id}`}>
+              <Link
+                to={`#${link.id}`}
+                onClick={() => setActive(link.id)} // Change to 'link.id'
+              >
                 {link.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
