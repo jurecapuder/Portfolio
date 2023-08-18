@@ -8,7 +8,6 @@ Here are some of the key projects featured in this portfolio:
 
 - Shirt creator: User-friendly web application that allows users to customize and visualize shirt designs in 3D.
 - HWiNFORestart: A series of short files using various programming languages to restart diagnostic software called HWiNFO.
-- ...
 
 ## Tools
 
