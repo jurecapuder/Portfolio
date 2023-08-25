@@ -181,26 +181,27 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Jure proved me wrong.",
-    name: "Sara Lee",
+    name: "David Wallace",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Dunder Mifflin inc.",
+    image: "https://media.licdn.com/dms/image/C4E03AQHU6R-7mLLOuA/profile-displayphoto-shrink_800_800/0/1590010254084?e=2147483647&v=beta&t=GzUb1fUjfrPvoT35JVfoSCG8qnIEq-zvkj4DyRj2Sz8",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Jure does.",
-    name: "Chris Brown",
+    name: "Jo Bennett",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Sabre inc.",
+    image: "https://i.ibb.co/5ktt59x/jobennet.png",
   },
   {
     testimonial:
       "After Jure optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Bob Vance",
+    designation: "CEO",
+    company: "Vance Refrigeration",
+    image: "https://media.licdn.com/dms/image/C4D03AQHFsWT5mNMh8A/profile-displayphoto-shrink_800_800/0/1587495120000?e=2147483647&v=beta&t=4kEGJH_D6aZOfD5Vg8VgI42CMo5hXVA7UGHOG4uWVGY",
+    // image was: https://randomuser.me/api/portraits/men/9.jpg
   },
 ];
 
