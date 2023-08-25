@@ -43,6 +43,9 @@ export const navLinks = [
   },
 ];
 
+const about = 
+  "I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!";
+
 const services = [
   {
     title: "Web Developer",
@@ -147,6 +150,8 @@ const technologies = [
   },
 ];
 
+const projectAbout = 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.';
+
 const projects = [
   {
     name: "Shirt Creator",
@@ -199,4 +204,4 @@ const testimonials = [
   },
 ];
 
-export { services, experiences, technologies, projects, testimonials };
+export { about, services, experiences, technologies, projectAbout, projects, testimonials };
