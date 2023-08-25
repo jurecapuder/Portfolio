@@ -41,7 +41,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Jure &nbsp; <span className='sm:block hidden'>| Capuder</span></p>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -50,7 +50,9 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.link || `#${nav.id}`} download={nav.title === "Resume"}>
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
@@ -80,7 +82,9 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={nav.link || `#${nav.id}`} download={nav.title === "Resume"}>
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
