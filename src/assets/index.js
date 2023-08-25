@@ -5,7 +5,8 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 
 import github from "./github.png";
-import website from "./website.png"
+import website from "./website.png";
+import linkedin from "./linkedin.png";
 
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -38,6 +39,7 @@ export {
 
   github,
   website,
+  linkedin,
 
   menu,
   close,
