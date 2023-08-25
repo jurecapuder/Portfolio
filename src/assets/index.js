@@ -11,6 +11,8 @@ import linkedin from "./linkedin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import resume from "./CV - Jure Capuder.pdf"
+
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -43,6 +45,8 @@ export {
 
   menu,
   close,
+
+  resume,
 
   css,
   git,

@@ -5,6 +5,8 @@ import {
   creator,
   web,
 
+  resume,
+
   // Work experience
   lek,
   zelinka,
@@ -47,7 +49,7 @@ export const navLinks = [
   },
   {
     title: "Resume",
-    link: "https://drive.google.com/file/d/1dkU75focF9-_VL5-1SNSnvHPBG1Nr5o0/view?usp=drive_link",
+    link: resume,
   },
 ];
 
