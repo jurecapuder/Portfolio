@@ -9,7 +9,6 @@ import {
   lek,
   zelinka,
 
-  //! Add more technologies
   // Technologies
   javascript,
   typescript,
@@ -20,7 +19,6 @@ import {
   nodejs,
   git,
   threejs,
-
   java,
   python,
   mysql,
@@ -64,8 +62,6 @@ const services = [
     icon: creator,
   },
 ];
-
-//* Add experience information
 
 const experiences = [
   {
@@ -176,6 +172,7 @@ const projects = [
       },
     ],
     image: shirtcreator,
+    website_link: "https://shirtcreator.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/ShirtCreator",
   },
 ];

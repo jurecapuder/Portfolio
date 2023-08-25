@@ -3,7 +3,10 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+
 import github from "./github.png";
+import website from "./website.png"
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -16,7 +19,6 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
 import java from "./tech/java.png";
 import python from "./tech/python.png";
 import mysql from "./tech/mysql.png";
@@ -35,11 +37,13 @@ export {
   mobile,
   web,
 
+  github,
+  website,
+
   menu,
   close,
 
   css,
-  github,
   git,
   html,
   javascript,
@@ -48,7 +52,6 @@ export {
   tailwind,
   typescript,
   threejs,
-
   java,
   python,
   mysql,
