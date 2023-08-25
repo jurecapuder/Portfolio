@@ -17,12 +17,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import framermotion from "./tech/framermotion.png";
+
 import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import shirtcreator from "./shirtcreator.png";
 
 export {
   logo,
@@ -45,10 +49,14 @@ export {
   typescript,
   threejs,
 
+  java,
+  python,
+  mysql,
+  php,
+  framermotion,
+
   lek,
   zelinka,
 
-  carrent,
-  jobit,
-  tripguide,
+  shirtcreator,
 };

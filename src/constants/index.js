@@ -19,12 +19,16 @@ import {
   tailwind,
   nodejs,
   git,
+  threejs,
+
+  java,
+  python,
+  mysql,
+  framermotion,
+  php,
 
   // Projects
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  shirtcreator,
 } from "../assets";
 
 export const navLinks = [
@@ -71,17 +75,24 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021 - June 2021",
     points: [
-      "",
+      "Assisting users with inquiries and technical issues, gaining valuable troubleshooting experience.",
+      "Efficiently managing and organizing storage resources, enhancing organizational abilities.",
+      "Creating clear and informative labels for easy identification and accessibility.",
+      "Preparing equipment and tools for tasks, emphasizing the importance of readiness.",
     ],
   },
   {
-    title: "Service and installation of PC parts",
+    title: "Service and installation of computer equipment",
     company_name: "Zelinka",
     icon: zelinka,
     iconBg: "#E6DEDD",
     date: "March 2023 - May 2022",
     points: [
-      "",
+      "Laptop and computer service",
+      "Replacing the motherboard, battery, RAM module, fans, keyboard",
+      "Installation of computer equipment, upgrading of components",
+      "RAM, SSD/HDD, GPU, expansion slots",
+      "Diagnostics and testing of computer equipment",
     ],
   },
 ];
@@ -123,71 +134,49 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "FramerMotion",
+    icon: framermotion,
+  },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shirt Creator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "User-friendly web application that allows users to customize and visualize shirt designs in 3D",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "threejs",
+        color: "white-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shirtcreator,
+    source_code_link: "https://github.com/jurecapuder/ShirtCreator",
   },
 ];
  
