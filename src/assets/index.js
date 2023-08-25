@@ -23,7 +23,6 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import mysql from "./tech/mysql.png";
 import php from "./tech/php.png";
-import framermotion from "./tech/framermotion.png";
 
 import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
@@ -56,7 +55,6 @@ export {
   python,
   mysql,
   php,
-  framermotion,
 
   lek,
   zelinka,

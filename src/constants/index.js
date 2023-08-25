@@ -22,7 +22,6 @@ import {
   java,
   python,
   mysql,
-  framermotion,
   php,
 
   // Projects
@@ -145,10 +144,6 @@ const technologies = [
   {
     name: "PHP",
     icon: php,
-  },
-  {
-    name: "FramerMotion",
-    icon: framermotion,
   },
 ];
 
