@@ -25,11 +25,10 @@ const ProjectCard = ({ index, name, description, tags, image, website_link, sour
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          //! Fix link not displaying
-          <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
-            <div
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div
               onClick={() => window.open(website_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-1"
             >
               <img
                 src={website}
@@ -37,10 +36,7 @@ const ProjectCard = ({ index, name, description, tags, image, website_link, sour
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
-          </div>
 
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
