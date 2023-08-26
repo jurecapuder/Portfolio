@@ -31,6 +31,7 @@ import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
 
 import shirtcreator from "./shirtcreator.png";
+import androidweatherapp from "./androidweatherapp.png";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   zelinka,
 
   shirtcreator,
+  androidweatherapp,
 };

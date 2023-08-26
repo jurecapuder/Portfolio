@@ -28,6 +28,8 @@ import {
 
   // Projects
   shirtcreator,
+  androidweatherapp,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -166,7 +168,7 @@ const projects = [
   {
     name: "Shirt Creator",
     description:
-      "User-friendly web application that allows users to customize and visualize shirt designs in 3D",
+      "User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
     tags: [
       {
         name: "react",
@@ -184,6 +186,24 @@ const projects = [
     image: shirtcreator,
     website_link: "https://shirtcreator.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/ShirtCreator",
+  },
+  {
+    name: "Android Weather App",
+    description:
+      "Android application to display the weather forecast.",
+    tags: [
+      {
+        name: "java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "xml",
+        color: "green-text-gradient",
+      },
+    ],
+    image: androidweatherapp,
+    website_link: "https://appetize.io/embed/ml6hhcr36an3udxuqg6nbl72lm",
+    source_code_link: "https://github.com/jurecapuder/AndroidWeatherApp",
   },
 ];
  
