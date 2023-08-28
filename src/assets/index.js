@@ -31,8 +31,9 @@ import php from "./tech/php.png";
 import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
 
-import shirtcreator from "./shirtcreator.png";
-import androidweatherapp from "./androidweatherapp.png";
+import shirtcreator from "./projects/shirtcreator.png";
+import androidweatherapp from "./projects/androidweatherapp.png";
+import sushi from "./projects/sushi.png";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
 
   shirtcreator,
   androidweatherapp,
+  sushi,
 };
