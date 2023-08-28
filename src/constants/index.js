@@ -29,6 +29,7 @@ import {
   // Projects
   shirtcreator,
   androidweatherapp,
+  sushi,
   
 } from "../assets";
 
@@ -172,20 +173,20 @@ const projects = [
       "User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "ThreeJS",
         color: "white-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Tailwind",
+        color: "teal-text-gradient",
       },
     ],
     image: shirtcreator,
-    website_link: "https://shirtcreator.vercel.app/",
+    website_link: "https://jc-shirtcreator.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/ShirtCreator",
   },
   {
@@ -194,17 +195,39 @@ const projects = [
       "Android application to display the weather forecast.",
     tags: [
       {
-        name: "java",
-        color: "pink-text-gradient",
+        name: "Java",
+        color: "red-text-gradient",
       },
       {
-        name: "xml",
+        name: "XML",
         color: "green-text-gradient",
       },
     ],
     image: androidweatherapp,
     website_link: "https://appetize.io/embed/ml6hhcr36an3udxuqg6nbl72lm",
     source_code_link: "https://github.com/jurecapuder/AndroidWeatherApp",
+  },
+  {
+    name: "Sushi Landing Page",
+    description:
+      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: sushi,
+    website_link: "https://jc-sushiman.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/Sushi",
   },
 ];
  
