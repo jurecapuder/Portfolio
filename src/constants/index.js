@@ -19,6 +19,7 @@ import {
   reactjs,
   tailwind,
   nodejs,
+  nextjs,
   git,
   threejs,
   java,
@@ -30,6 +31,7 @@ import {
   shirtcreator,
   androidweatherapp,
   sushi,
+  carhub,
   
 } from "../assets";
 
@@ -139,6 +141,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -228,6 +234,24 @@ const projects = [
     image: sushi,
     website_link: "https://jc-sushiman.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/Sushi",
+  },
+  {
+    name: "Car Hub",
+    description:
+      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      }
+    ],
+    image: carhub,
+    website_link: "https://jc-carhub.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/carshowcase",
   },
 ];
  

@@ -27,6 +27,7 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import mysql from "./tech/mysql.png";
 import php from "./tech/php.png";
+import nextjs from "./tech/nextjs.png";
 
 import lek from "./company/lek.png";
 import zelinka from "./company/zelinka.png";
@@ -34,6 +35,7 @@ import zelinka from "./company/zelinka.png";
 import shirtcreator from "./projects/shirtcreator.png";
 import androidweatherapp from "./projects/androidweatherapp.png";
 import sushi from "./projects/sushi.png";
+import carhub from "./projects/carhub.png"
 
 export {
   logo,
@@ -64,6 +66,7 @@ export {
   python,
   mysql,
   php,
+  nextjs,
 
   lek,
   zelinka,
@@ -71,4 +74,5 @@ export {
   shirtcreator,
   androidweatherapp,
   sushi,
+  carhub,
 };
