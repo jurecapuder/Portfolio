@@ -22,10 +22,6 @@ import {
   nextjs,
   git,
   threejs,
-  java,
-  python,
-  mysql,
-  php,
 
   // Projects
   shirtcreator,
@@ -151,22 +147,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
-    name: "PHP",
-    icon: php,
   },
 ];
 

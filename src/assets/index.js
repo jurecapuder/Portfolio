@@ -23,10 +23,6 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import java from "./tech/java.png";
-import python from "./tech/python.png";
-import mysql from "./tech/mysql.png";
-import php from "./tech/php.png";
 import nextjs from "./tech/nextjs.png";
 
 import lek from "./company/lek.png";
@@ -62,10 +58,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  java,
-  python,
-  mysql,
-  php,
   nextjs,
 
   lek,
