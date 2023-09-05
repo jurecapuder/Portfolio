@@ -218,7 +218,7 @@ const projects = [
   {
     name: "Car Hub",
     description:
-      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
+      "🚗 Car Hub is a user-friendly web application that simplifies the process of finding and comparing rental prices for various cars.",
     tags: [
       {
         name: "TypeScript",
