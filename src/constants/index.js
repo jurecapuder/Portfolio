@@ -28,6 +28,7 @@ import {
   androidweatherapp,
   sushi,
   carhub,
+  remindme,
   
 } from "../assets";
 
@@ -232,6 +233,28 @@ const projects = [
     image: carhub,
     website_link: "https://jc-carhub.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/carshowcase",
+  },
+  {
+    name: "Remind Me",
+    description:
+      "📝 A modern and responsive full stack web reminder app built with Next.js, TypeScript, and Tailwind CSS.",
+    tags: [
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "teal-text-gradient",
+      },
+    ],
+    image: remindme,
+    website_link: "https://jc-remindme.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/remindme",
   },
 ];
  
