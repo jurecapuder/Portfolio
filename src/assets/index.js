@@ -32,7 +32,6 @@ import shirtcreator from "./projects/shirtcreator.png";
 import androidweatherapp from "./projects/androidweatherapp.png";
 import sushi from "./projects/sushi.png";
 import carhub from "./projects/carhub.png"
-import remindme from "./projects/remindme.png"
 
 export {
   logo,
@@ -68,5 +67,4 @@ export {
   androidweatherapp,
   sushi,
   carhub,
-  remindme,
 };
