@@ -29,6 +29,7 @@ import {
   sushi,
   carhub,
   remindme,
+  jcpro,
   
 } from "../assets";
 
@@ -255,6 +256,32 @@ const projects = [
     image: remindme,
     website_link: "https://jc-remindme.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/remindme",
+  },
+  {
+    name: "JC Pro",
+    description:
+      "🔃 SEO website about PDF guide searching",
+    tags: [
+      {
+        name: "Tailwind CSS",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sanity",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      },
+    ],
+    image: jcpro,
+    website_link: "https://jc-jcpro.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/jcpro",
   },
 ];
  

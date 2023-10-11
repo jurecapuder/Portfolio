@@ -33,6 +33,7 @@ import androidweatherapp from "./projects/androidweatherapp.png";
 import sushi from "./projects/sushi.png";
 import carhub from "./projects/carhub.png"
 import remindme from "./projects/remindme.png"
+import jcpro from "./projects/jcpro.png"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   sushi,
   carhub,
   remindme,
+  jcpro,
 };
