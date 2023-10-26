@@ -156,86 +156,6 @@ const projectAbout = 'Following projects showcases my skills and experience thro
 
 const projects = [
   {
-    name: "Shirt Creator",
-    description:
-      "User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ThreeJS",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "teal-text-gradient",
-      },
-    ],
-    image: shirtcreator,
-    website_link: "https://jc-shirtcreator.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/ShirtCreator",
-  },
-  {
-    name: "Android Weather App",
-    description:
-      "Android application to display the weather forecast.",
-    tags: [
-      {
-        name: "Java",
-        color: "red-text-gradient",
-      },
-      {
-        name: "XML",
-        color: "green-text-gradient",
-      },
-    ],
-    image: androidweatherapp,
-    website_link: "https://appetize.io/embed/ml6hhcr36an3udxuqg6nbl72lm",
-    source_code_link: "https://github.com/jurecapuder/AndroidWeatherApp",
-  },
-  {
-    name: "Sushi Landing Page",
-    description:
-      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
-    tags: [
-      {
-        name: "HTML",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: sushi,
-    website_link: "https://jc-sushiman.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/Sushi",
-  },
-  {
-    name: "Car Hub",
-    description:
-      "🚗 Car Hub is a user-friendly web application that simplifies the process of finding and comparing rental prices for various cars.",
-    tags: [
-      {
-        name: "TypeScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.JS",
-        color: "white-text-gradient",
-      }
-    ],
-    image: carhub,
-    website_link: "https://jc-carhub.vercel.app/",
-    source_code_link: "https://github.com/jurecapuder/carshowcase",
-  },
-  {
     name: "Remind Me",
     description:
       "📝 A modern and responsive full stack web reminder app built with Next.js, TypeScript, and Tailwind CSS.",
@@ -282,6 +202,86 @@ const projects = [
     image: jcpro,
     website_link: "https://jc-jcpro.vercel.app/",
     source_code_link: "https://github.com/jurecapuder/jcpro",
+  },
+  {
+    name: "Shirt Creator",
+    description:
+      "User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "teal-text-gradient",
+      },
+    ],
+    image: shirtcreator,
+    website_link: "https://jc-shirtcreator.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/ShirtCreator",
+  },
+  {
+    name: "Sushi Landing Page",
+    description:
+      "🍣 A responsive and captivating landing page for a fictional sushi restaurant, built with HTML, CSS, and JavaScript.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: sushi,
+    website_link: "https://jc-sushiman.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/Sushi",
+  },
+  {
+    name: "Car Hub",
+    description:
+      "🚗 Car Hub is a user-friendly web application that simplifies the process of finding and comparing rental prices for various cars.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      }
+    ],
+    image: carhub,
+    website_link: "https://jc-carhub.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/carshowcase",
+  },
+  {
+    name: "Android Weather App",
+    description:
+      "Android application to display the weather forecast.",
+    tags: [
+      {
+        name: "Java",
+        color: "red-text-gradient",
+      },
+      {
+        name: "XML",
+        color: "green-text-gradient",
+      },
+    ],
+    image: androidweatherapp,
+    website_link: "https://appetize.io/embed/ml6hhcr36an3udxuqg6nbl72lm",
+    source_code_link: "https://github.com/jurecapuder/AndroidWeatherApp",
   },
 ];
  
