@@ -1,18 +1,18 @@
-import logo from "./logo.svg";
+import logo from "./misc/logo.svg";
 
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import backend from "./misc/backend.png";
+import creator from "./misc/creator.png";
+import mobile from "./misc/mobile.png";
+import web from "./misc/web.png";
 
-import github from "./github.png";
-import website from "./website.png";
-import linkedin from "./linkedin.png";
+import github from "./misc/github.png";
+import website from "./misc/website.png";
+import linkedin from "./misc/linkedin.png";
 
-import menu from "./menu.svg";
-import close from "./close.svg";
+import menu from "./misc/menu.svg";
+import close from "./misc/close.svg";
 
-import resume from "./CV - Jure Capuder.pdf"
+import resume from "./misc/CV - Jure Capuder.pdf"
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
