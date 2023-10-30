@@ -50,7 +50,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.link || `#${nav.id}`} download={nav.id === "resume"}>
+              <a href={nav.link || `#${nav.id}`}>
                 {nav.title}
               </a>
             </li>
