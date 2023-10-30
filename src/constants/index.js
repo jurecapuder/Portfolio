@@ -5,8 +5,6 @@ import {
   creator,
   web,
 
-  resume,
-
   // Work experience
   lek,
   zelinka,
@@ -53,7 +51,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: resume,
+    link: "/resume",
   },
 ];
 
