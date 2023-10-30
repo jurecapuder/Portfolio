@@ -48,11 +48,20 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => {
+                setToggle(!toggle);
+                setActive(nav.title);
+              }}
             >
-              <a href={nav.link || `#${nav.id}`}>
-                {nav.title}
-              </a>
+              {nav.id === "resume" ? (
+                <Link to="/resume">
+                  {nav.title}
+                </Link>
+              ) : (
+                <a href={`#${nav.id}`}>
+                  {nav.title}
+                </a>
+              )}
             </li>
           ))}
         </ul>
@@ -82,9 +91,15 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={nav.link || `#${nav.id}`} download={nav.id === "resume"}>
-                    {nav.title}
-                  </a>
+                  {nav.id === "resume" ? (
+                    <a href={nav.link} target="_blank" rel="noopener noreferrer">
+                      {nav.title}
+                    </a>
+                  ) : (
+                    <Link to={`/${nav.id}`}>
+                      {nav.title}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
