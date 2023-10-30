@@ -1,6 +1,8 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+
+import earthImage from "../assets/misc/earth.png";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -63,6 +65,20 @@ const Contact = () => {
         }
       );
   };
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div
@@ -127,7 +143,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+        {isMobile ? <img src={earthImage} alt="Earth Image" className='w-full h-auto object-contain' /> : <EarthCanvas />}
       </motion.div>
     </div>
   );
