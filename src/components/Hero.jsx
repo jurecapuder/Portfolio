@@ -1,9 +1,26 @@
-import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
-import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import computerImage from '../assets/misc/computer.png';
+
+import { styles } from '../styles';
+import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -20,7 +37,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className='absolute inset-0'>
+        {isMobile ? <img src={computerImage} alt="3D Model" className='w-full h-auto object-contain absolute' style={{bottom: '30%'}} /> : <ComputersCanvas />}
+      </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">
@@ -41,7 +60,7 @@ const Hero = () => {
       </div>
 
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
