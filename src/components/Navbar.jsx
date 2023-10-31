@@ -92,13 +92,13 @@ const Navbar = () => {
                   }}
                 >
                   {nav.id === "resume" ? (
-                    <a href={nav.link} target="_blank" rel="noopener noreferrer">
+                    <a href={nav.link}>
                       {nav.title}
                     </a>
                   ) : (
-                    <Link to={`/${nav.id}`}>
+                    <a href={`#${nav.id}`}>
                       {nav.title}
-                    </Link>
+                    </a>
                   )}
                 </li>
               ))}
