@@ -5,9 +5,11 @@ import creator from "./misc/creator.png";
 import mobile from "./misc/mobile.png";
 import web from "./misc/web.png";
 
-import github from "./misc/github.png";
 import website from "./misc/website.png";
-import linkedin from "./misc/linkedin.png";
+
+import github from "./footer/github.png";
+import linkedin from "./footer/linkedin.png";
+import linktree from "./footer/linktree.png";
 
 import menu from "./misc/menu.svg";
 import close from "./misc/close.svg";
@@ -43,9 +45,11 @@ export {
   mobile,
   web,
 
-  github,
   website,
+
+  github,
   linkedin,
+  linktree,
 
   menu,
   close,
