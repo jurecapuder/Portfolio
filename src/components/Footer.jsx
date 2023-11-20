@@ -1,6 +1,4 @@
-import React from 'react'
-
-import { github, linkedin } from "../assets";
+import { github, linkedin, linktree } from "../assets";
 
 const Footer = () => {
   return (
@@ -9,15 +7,21 @@ const Footer = () => {
         © Jure Capuder, 2023
       </p>
       <div className='flex gap-4 items-center pt-4'>
-        <a target='_blank' href='https://www.github.com/jurecapuder'>
+        <a rel="noreferrer" target='_blank' href='https://www.github.com/jurecapuder'>
           <img
             src={github}
             className="w-[120px] h-[120px] object-cover"
           />
         </a>
-        <a target='_blank' href='https://www.linkedin.com/in/jurecapuder/'>
+        <a rel="noreferrer" target='_blank' href='https://www.linkedin.com/in/jurecapuder/'>
           <img
             src={linkedin}
+            className="w-[100px] h-[100px] object-cover rounded-2xl"
+          />
+        </a>
+        <a rel="noreferrer" target='_blank' href='https://linktr.ee/jurecapuder'>
+          <img
+            src={linktree}
             className="w-[100px] h-[100px] object-cover rounded-2xl"
           />
         </a>
