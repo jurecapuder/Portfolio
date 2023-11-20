@@ -34,6 +34,7 @@ import sushi from "./projects/sushi.png";
 import carhub from "./projects/carhub.png"
 import remindme from "./projects/remindme.png"
 import jcpro from "./projects/jcpro.png"
+import jotion from "./projects/jotion.png"
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   carhub,
   remindme,
   jcpro,
+  jotion,
 };

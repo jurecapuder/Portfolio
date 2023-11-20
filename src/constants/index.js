@@ -30,6 +30,7 @@ import {
   carhub,
   remindme,
   jcpro,
+  jotion,
   
 } from "../assets";
 
@@ -157,6 +158,32 @@ const projectAbout = 'Following projects showcases my skills and experience thro
 
 const projects = [
   {
+    name: "Jotion",
+    description:
+      "📒Elevate your note-taking with real-time database synchronization, light and dark modes, infinite document hierarchies, and more.",
+    tags: [
+      {
+        name: "Convex",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jotion,
+    website_link: "https://jc-jotion.vercel.app/",
+    source_code_link: "https://github.com/jurecapuder/jotion",
+  },
+  {
     name: "Remind Me",
     description:
       "📝 A modern and responsive full stack web reminder app built with Next.js, TypeScript, and Tailwind CSS.",
@@ -207,7 +234,7 @@ const projects = [
   {
     name: "Shirt Creator",
     description:
-      "User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
+      "👕 User-friendly web application that allows users to customize and visualize shirt designs in 3D.",
     tags: [
       {
         name: "React",
