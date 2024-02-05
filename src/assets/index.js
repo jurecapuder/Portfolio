@@ -33,10 +33,11 @@ import zelinka from "./company/zelinka.png";
 import shirtcreator from "./projects/shirtcreator.png";
 import androidweatherapp from "./projects/androidweatherapp.png";
 import sushi from "./projects/sushi.png";
-import carhub from "./projects/carhub.png"
-import remindme from "./projects/remindme.png"
-import jcpro from "./projects/jcpro.png"
-import jotion from "./projects/jotion.png"
+import carhub from "./projects/carhub.png";
+import remindme from "./projects/remindme.png";
+import jcpro from "./projects/jcpro.png";
+import jotion from "./projects/jotion.png";
+import digitalmarketplace from "./projects/digitalmarketplace.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   remindme,
   jcpro,
   jotion,
+  digitalmarketplace,
 };
