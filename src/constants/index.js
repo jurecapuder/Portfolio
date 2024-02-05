@@ -31,7 +31,8 @@ import {
   remindme,
   jcpro,
   jotion,
-  
+  digitalmarketplace,
+
 } from "../assets";
 
 export const navLinks = [
@@ -157,6 +158,41 @@ const technologies = [
 const projectAbout = 'Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.';
 
 const projects = [
+  {
+    name: "DigitalHippo",
+    description:
+      "🖼️ A Modern Fullstack E-Commerce Marketplace for Digital Products",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Next.JS",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Payload",
+        color: "purple-text-gradient",
+      },
+      
+    ],
+    image: digitalmarketplace,
+    website_link: "https://jc-digitalmarketplace.up.railway.app/",
+    source_code_link: "https://github.com/jurecapuder/digital_marketplace",
+  },
   {
     name: "Jotion",
     description:
