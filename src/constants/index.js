@@ -85,7 +85,7 @@ const services = [
 const experiences = [
   {
     title: "IT Support",
-    company_name: "Lek",
+    company_name: "Lek d. d.",
     icon: lek,
     iconBg: "#383E56",
     date: "June 2021 - June 2021",
@@ -98,7 +98,7 @@ const experiences = [
   },
   {
     title: "Service and installation of computer equipment",
-    company_name: "Zelinka",
+    company_name: "Zelinka d.o.o.",
     icon: zelinka,
     iconBg: "#E6DEDD",
     date: "March 2023 - May 2023",
